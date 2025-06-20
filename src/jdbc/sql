@@ -1,0 +1,5 @@
+CREATE TABLE ALARM (
+    id VARCHAR(50) PRIMARY KEY, -- 알람 고유 ID (기본 키)
+    time VARCHAR(5) NOT NULL,   -- 알람 시간 (HH:MM 형식, 예: '09:30')
+    message VARCHAR(255)        -- 알람 메시지 (최대 255자)
+);
